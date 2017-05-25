@@ -1,0 +1,1933 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.1), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.0.3]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+    "comments": {
+      "undefined": "Выбор устройства"
+    }
+  },
+  "namespace": [],
+  "metrics": {
+    "classCount": 26,
+    "objectPropertyCount": 0,
+    "datatypePropertyCount": 0,
+    "individualCount": 0
+  },
+  "settings": {
+    "global": {
+      "zoom": 1,
+      "translation": [
+        0,
+        0
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "45",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "72",
+      "type": "owl:Class"
+    },
+    {
+      "id": "73",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "46",
+      "type": "owl:Class"
+    },
+    {
+      "id": "57",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Дешевле",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Дешевле"
+      },
+      "id": "0",
+      "superClasses": [
+        "1"
+      ],
+      "pos": [
+        10.084003250925132,
+        -282.17450467812523
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Ремонт",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Ремонт"
+      },
+      "subClasses": [
+        "0",
+        "6",
+        "7"
+      ],
+      "id": "1",
+      "superClasses": [
+        "5"
+      ],
+      "pos": [
+        163.47773778893347,
+        30.293059673841867
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Функциональный",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Функциональный"
+      },
+      "id": "8",
+      "superClasses": [
+        "5"
+      ],
+      "pos": [
+        146.86001872954844,
+        471.7015891733769
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Много",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Много"
+      },
+      "subClasses": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "id": "12",
+      "superClasses": [
+        "5"
+      ],
+      "pos": [
+        852.7379075793813,
+        224.53534714540405
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Электроенергии",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Электроенергии"
+      },
+      "id": "15",
+      "superClasses": [
+        "12"
+      ],
+      "pos": [
+        1197.3352275450386,
+        253.28085661491687
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сотовая_связь",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Сотовая_связь"
+      },
+      "id": "20",
+      "superClasses": [
+        "28"
+      ],
+      "pos": [
+        425.80526208827035,
+        -109.36397719815253
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Видеозапись",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Видеозапись"
+      },
+      "id": "36",
+      "superClasses": [
+        "24"
+      ],
+      "pos": [
+        1197.93686010792,
+        923.6969823805267
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сенсорный",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Сенсорный"
+      },
+      "id": "3",
+      "superClasses": [
+        "28"
+      ],
+      "pos": [
+        568.3301684472572,
+        91.165801364753
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Быстрый",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Быстрый"
+      },
+      "id": "6",
+      "superClasses": [
+        "1"
+      ],
+      "pos": [
+        -161.69370092733908,
+        191.7631329140418
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Смартфон",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Смартфон"
+      },
+      "subClasses": [
+        "39",
+        "11",
+        "3",
+        "20",
+        "18"
+      ],
+      "id": "28",
+      "superClasses": [
+        "45"
+      ],
+      "pos": [
+        216.08344727733027,
+        185.8649915083596
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Удобность",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Удобность"
+      },
+      "id": "22",
+      "superClasses": [
+        "46"
+      ],
+      "pos": [
+        759.3444670848337,
+        1104.5499309364377
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сенсор",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Сенсор"
+      },
+      "id": "4",
+      "superClasses": [
+        "46"
+      ],
+      "pos": [
+        836.7081458190842,
+        732.6366576598248
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Устройство",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Устройство"
+      },
+      "subClasses": [
+        "46",
+        "28",
+        "5"
+      ],
+      "id": "45",
+      "pos": [
+        280.78473525504063,
+        579.4293338352437
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съёмка",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Съёмка"
+      },
+      "subClasses": [
+        "57",
+        "36"
+      ],
+      "id": "24",
+      "superClasses": [
+        "46"
+      ],
+      "pos": [
+        862.4623186610959,
+        904.5607335116625
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компьютер",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Компьютер"
+      },
+      "subClasses": [
+        "1",
+        "12",
+        "8"
+      ],
+      "id": "5",
+      "superClasses": [
+        "45"
+      ],
+      "pos": [
+        465.49992688675303,
+        289.27841932027104
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Шум",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Шум"
+      },
+      "id": "14",
+      "superClasses": [
+        "12"
+      ],
+      "pos": [
+        676.7095086723833,
+        513.9094813317346
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Легкий",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Легкий"
+      },
+      "id": "7",
+      "superClasses": [
+        "1"
+      ],
+      "pos": [
+        518.89294207454,
+        -76.75537985798809
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Пыли",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Пыли"
+      },
+      "id": "16",
+      "superClasses": [
+        "12"
+      ],
+      "pos": [
+        902.0943206146716,
+        557.3494732400154
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Фото",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Фото"
+      },
+      "id": "72",
+      "superClasses": [
+        "18"
+      ],
+      "pos": [
+        340.90691760829816,
+        -539.3593735669069
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Видео",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Видео"
+      },
+      "id": "73",
+      "superClasses": [
+        "18"
+      ],
+      "pos": [
+        713.9131150223174,
+        -337.85995766839596
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Удобный",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Удобный"
+      },
+      "id": "11",
+      "superClasses": [
+        "28"
+      ],
+      "pos": [
+        33.24064445715502,
+        510.04878688453005
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Планшет",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Планшет"
+      },
+      "subClasses": [
+        "4",
+        "24",
+        "22"
+      ],
+      "id": "46",
+      "superClasses": [
+        "45"
+      ],
+      "pos": [
+        510.86260147118844,
+        856.4036708225502
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Фотографии",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Фотографии"
+      },
+      "id": "57",
+      "superClasses": [
+        "24"
+      ],
+      "pos": [
+        606.8278956352539,
+        1141.1009873362339
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съемка",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Съемка"
+      },
+      "subClasses": [
+        "72",
+        "73"
+      ],
+      "id": "18",
+      "superClasses": [
+        "28"
+      ],
+      "pos": [
+        380.48637974910923,
+        -203.91941490461352
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Места",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Места"
+      },
+      "id": "13",
+      "superClasses": [
+        "12"
+      ],
+      "pos": [
+        1113.0915531989122,
+        -0.38121102437083265
+      ]
+    },
+    {
+      "iri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компактный",
+      "baseIri": "http://www.semanticweb.org/aluna/ontologies/2017/4/lb1",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Компактный"
+      },
+      "id": "39",
+      "superClasses": [
+        "28"
+      ],
+      "pos": [
+        -113.72236579225206,
+        42.495961234150016
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "2",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "9",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "10",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "17",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "19",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "21",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "23",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "25",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "26",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "27",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "29",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "30",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "31",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "32",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "33",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "34",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "35",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "37",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "38",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "40",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "41",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "42",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "43",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "44",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "47",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "48",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "49",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "50",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "51",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "52",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "53",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "54",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "55",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "56",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "58",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "59",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "60",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "61",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "62",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "63",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "64",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "65",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "66",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "67",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "68",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "69",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "70",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "71",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "74",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "75",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "76",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "77",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "78",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "79",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "80",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "81",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "82",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "83",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "84",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "85",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "86",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "87",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "88",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "89",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "90",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "91",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "92",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "93",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "94",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "95",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "96",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "97",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "98",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "99",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "100",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "101",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "102",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "103",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "104",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "105",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "106",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "107",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "108",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "109",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "110",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "111",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "112",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "113",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "114",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "115",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "116",
+      "type": "rdfs:SubClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "range": "4",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "2"
+    },
+    {
+      "range": "8",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "9"
+    },
+    {
+      "range": "11",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "10"
+    },
+    {
+      "range": "18",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "17"
+    },
+    {
+      "range": "20",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "19"
+    },
+    {
+      "range": "22",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "21"
+    },
+    {
+      "range": "24",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "23"
+    },
+    {
+      "range": "1",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "25"
+    },
+    {
+      "range": "8",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "26"
+    },
+    {
+      "range": "28",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "27"
+    },
+    {
+      "range": "1",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "29"
+    },
+    {
+      "range": "22",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "30"
+    },
+    {
+      "range": "24",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "31"
+    },
+    {
+      "range": "12",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "32"
+    },
+    {
+      "range": "28",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "33"
+    },
+    {
+      "range": "12",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "34"
+    },
+    {
+      "range": "18",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "35"
+    },
+    {
+      "range": "20",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "37"
+    },
+    {
+      "range": "8",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "38"
+    },
+    {
+      "range": "12",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "40"
+    },
+    {
+      "range": "12",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "41"
+    },
+    {
+      "range": "8",
+      "domain": "28",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "42"
+    },
+    {
+      "range": "24",
+      "domain": "20",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "43"
+    },
+    {
+      "range": "18",
+      "domain": "20",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "44"
+    },
+    {
+      "range": "24",
+      "domain": "28",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "47"
+    },
+    {
+      "range": "28",
+      "domain": "18",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "48"
+    },
+    {
+      "range": "28",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "49"
+    },
+    {
+      "range": "28",
+      "domain": "22",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "50"
+    },
+    {
+      "range": "11",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "51"
+    },
+    {
+      "range": "22",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "52"
+    },
+    {
+      "range": "28",
+      "domain": "20",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "53"
+    },
+    {
+      "range": "8",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "54"
+    },
+    {
+      "range": "24",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "55"
+    },
+    {
+      "range": "18",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "56"
+    },
+    {
+      "range": "20",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "58"
+    },
+    {
+      "range": "11",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "59"
+    },
+    {
+      "range": "22",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "60"
+    },
+    {
+      "range": "28",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "61"
+    },
+    {
+      "range": "8",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "62"
+    },
+    {
+      "range": "20",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "63"
+    },
+    {
+      "range": "28",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "64"
+    },
+    {
+      "range": "24",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "65"
+    },
+    {
+      "range": "18",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "66"
+    },
+    {
+      "range": "12",
+      "domain": "16",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "67",
+      "pos": [
+        877.4161140970264,
+        390.94241019270976
+      ]
+    },
+    {
+      "range": "12",
+      "domain": "15",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "68",
+      "pos": [
+        1025.03656756221,
+        238.90810188016047
+      ]
+    },
+    {
+      "range": "46",
+      "domain": "24",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "69",
+      "pos": [
+        686.6624600661421,
+        880.4822021671064
+      ]
+    },
+    {
+      "range": "46",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "70",
+      "pos": [
+        673.7853736451364,
+        794.5201642411876
+      ]
+    },
+    {
+      "range": "12",
+      "domain": "14",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "71",
+      "pos": [
+        764.7237081258824,
+        369.2224142385693
+      ]
+    },
+    {
+      "range": "12",
+      "domain": "13",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "74",
+      "pos": [
+        982.9147303891468,
+        112.07706806051661
+      ]
+    },
+    {
+      "range": "1",
+      "domain": "7",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "75",
+      "pos": [
+        341.18533993173673,
+        -23.23116009207311
+      ]
+    },
+    {
+      "range": "8",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "76"
+    },
+    {
+      "range": "8",
+      "domain": "22",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "77"
+    },
+    {
+      "range": "1",
+      "domain": "6",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "78",
+      "pos": [
+        0.8920184307971937,
+        111.02809629394183
+      ]
+    },
+    {
+      "range": "1",
+      "domain": "0",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "79",
+      "pos": [
+        86.7808705199293,
+        -125.94072250214168
+      ]
+    },
+    {
+      "range": "24",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "80"
+    },
+    {
+      "range": "24",
+      "domain": "22",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "81"
+    },
+    {
+      "range": "22",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "82"
+    },
+    {
+      "range": "8",
+      "domain": "24",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "83"
+    },
+    {
+      "range": "18",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "84"
+    },
+    {
+      "range": "22",
+      "domain": "18",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "85"
+    },
+    {
+      "range": "8",
+      "domain": "18",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "86"
+    },
+    {
+      "range": "20",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "87"
+    },
+    {
+      "range": "22",
+      "domain": "20",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "88"
+    },
+    {
+      "range": "24",
+      "domain": "18",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "89"
+    },
+    {
+      "range": "8",
+      "domain": "20",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "90"
+    },
+    {
+      "range": "5",
+      "domain": "8",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "91",
+      "pos": [
+        306.17997280815075,
+        380.49000424682396
+      ]
+    },
+    {
+      "range": "39",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "92"
+    },
+    {
+      "range": "39",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "93"
+    },
+    {
+      "range": "28",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "94"
+    },
+    {
+      "range": "20",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "95"
+    },
+    {
+      "range": "18",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "96"
+    },
+    {
+      "range": "24",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "97"
+    },
+    {
+      "range": "22",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "98"
+    },
+    {
+      "range": "11",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "99"
+    },
+    {
+      "range": "12",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "100"
+    },
+    {
+      "range": "1",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "101"
+    },
+    {
+      "range": "24",
+      "domain": "36",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "102",
+      "pos": [
+        1030.1995893845078,
+        914.1288579460946
+      ]
+    },
+    {
+      "range": "24",
+      "domain": "57",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "103",
+      "pos": [
+        734.6451071481749,
+        1022.8308604239481
+      ]
+    },
+    {
+      "range": "5",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "104",
+      "pos": [
+        659.1189172330671,
+        256.9068832328376
+      ]
+    },
+    {
+      "range": "5",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "105",
+      "pos": [
+        314.48883233784323,
+        159.78573949705645
+      ]
+    },
+    {
+      "range": "45",
+      "domain": "46",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "106",
+      "pos": [
+        395.8236683631145,
+        717.916502328897
+      ]
+    },
+    {
+      "range": "18",
+      "domain": "73",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "107",
+      "pos": [
+        547.1997473857133,
+        -270.88968628650474
+      ]
+    },
+    {
+      "range": "45",
+      "domain": "5",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "108",
+      "pos": [
+        373.14233107089683,
+        434.3538765777574
+      ]
+    },
+    {
+      "range": "45",
+      "domain": "28",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "109",
+      "pos": [
+        248.43409126618545,
+        382.64716267180165
+      ]
+    },
+    {
+      "range": "18",
+      "domain": "72",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "110",
+      "pos": [
+        360.6966486787037,
+        -371.6393942357602
+      ]
+    },
+    {
+      "range": "28",
+      "domain": "18",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "111",
+      "pos": [
+        298.28491351321975,
+        -9.027211698126962
+      ]
+    },
+    {
+      "range": "28",
+      "domain": "20",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "112",
+      "pos": [
+        320.9443546828003,
+        38.250507155103534
+      ]
+    },
+    {
+      "range": "28",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "113",
+      "pos": [
+        51.18054074253911,
+        114.1804763712548
+      ]
+    },
+    {
+      "range": "46",
+      "domain": "22",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "114",
+      "pos": [
+        635.103534278011,
+        980.476800879494
+      ]
+    },
+    {
+      "range": "28",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "115",
+      "pos": [
+        392.2068078622937,
+        138.5153964365563
+      ]
+    },
+    {
+      "range": "28",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "116",
+      "pos": [
+        124.66204586724264,
+        347.9568891964448
+      ]
+    }
+  ]
+}
