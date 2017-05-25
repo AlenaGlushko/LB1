@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#"
+     xml:base="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1">
+        <rdfs:comment>Выбор устройства</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Быстрый -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Быстрый">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Ремонт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Видео -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Видео">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съемка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Видеозапись -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Видеозапись">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съёмка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Дешевле -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Дешевле">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Ремонт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компактный -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компактный">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Смартфон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компьютер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компьютер">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Устройство"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Легкий -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Легкий">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Ремонт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Места -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Места">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Много"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Много -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Много">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компьютер"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Планшет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Планшет">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Устройство"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Пыли -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Пыли">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Много"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Ремонт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Ремонт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компьютер"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сенсор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сенсор">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Планшет"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сенсорный -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сенсорный">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Смартфон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Смартфон -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Смартфон">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Устройство"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сотовая_связь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сотовая_связь">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Смартфон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съемка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съемка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Смартфон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съёмка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съёмка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Планшет"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Удобность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Удобность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Планшет"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Удобный -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Удобный">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Смартфон"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Устройство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Устройство"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Фото -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Фото">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съемка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Фотографии -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Фотографии">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съёмка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Функциональный -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Функциональный">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компьютер"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Шум -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Шум">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Много"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Электроенергии -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Электроенергии">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Много"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Компактный"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Много"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Ремонт"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сенсор"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сенсорный"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Смартфон"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Сотовая_связь"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съемка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Съёмка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Удобность"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Удобный"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluna/ontologies/2017/4/lb1#Функциональный"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
